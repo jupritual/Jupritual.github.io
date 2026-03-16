@@ -1,9 +1,5 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/jupritual/Jupritual-bot/main/assets/banner.jpg" width="100%" style="max-height:200px; object-fit:cover; border-radius:12px"/>
-
-<br/>
-
 <img src="https://raw.githubusercontent.com/jupritual/Jupritual-bot/main/assets/avatar.png" width="80" height="80"/>
 
 # Jupritual
