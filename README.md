@@ -1,8 +1,10 @@
 <div align="center">
 
-<img src="https://i.imgur.com/placeholder.png" width="120" height="120" style="border-radius: 50%"/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-bot/main/assets/banner.png" width="100%"/>
 
-# 🪐 Jupritual
+<br/>
+
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-bot/main/assets/avatar.png" width="40" height="40" style="border-radius:50%; vertical-align:middle"/> **Jupritual**
 
 **A production-grade Discord moderation & automation bot — built solo from scratch.**
 
@@ -13,7 +15,7 @@
 [![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongodb.com)
 [![Oracle Cloud](https://img.shields.io/badge/Deployed-Oracle%20Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)](https://oracle.com/cloud)
 
-> *146+ commands. Modular architecture. Cloud-deployed. Built by one engineering student.*
+> *146+ commands. Modular architecture. Cloud-deployed. Built by divyam.*
 
 </div>
 
@@ -233,7 +235,9 @@ jupritual/
 
 ## ✦ About
 
-Built solo by **Divyam** — a Computer Science engineering student — as a long-term project to learn backend systems, Discord API internals, database design, and cloud deployment.
+Jupritual is independently developed and maintained by a solo developer
+with a focus on production-quality architecture, real-world deployment,
+and continuously expanding features.
 
 This bot is not a fork. Not a tutorial project. Every system was designed, built, debugged, and deployed independently.
 
