@@ -4,7 +4,10 @@
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/jupritual/Jupritual-bot/main/assets/avatar.png" width="40" height="40" style="border-radius:50%; vertical-align:middle"/> **Jupritual**
+<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-bot/main/assets/avatar.png" width="80" height="80" style="border-radius:50%"/>
+
+### Jupritual
 
 **A production-grade Discord moderation & automation bot — built solo from scratch.**
 
