@@ -286,7 +286,7 @@ Delete messages with powerful filters — by user, keyword, embeds, bots, and mo
 <div align="center">
 
 **Confirmation + live message preview before deletion**<br/>
-<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/purge-confirm.png" width="350"/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/purge-confirm.jpeg" width="350"/>
 
 </div>
 
