@@ -254,6 +254,25 @@ View all currently timed out members in the server with time remaining — selec
 
 </div>
 
+---
+
+### Lock List — `j.locklist`
+
+View all currently locked channels in the server — select any channel from the dropdown to see full details and unlock options.
+
+<div align="center">
+
+**Step 1 — Overview of locked channels**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/locklist-overview.png" width="350"/><br/><br/>
+
+**Step 2 — Dropdown showing all locked channels**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/locklist-dropdown.png" width="350"/><br/><br/>
+
+**Step 3 — Channel details with unlock & back actions**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/locklist-details.png" width="350"/>
+
+</div>
+
 </details>
 
 ---
