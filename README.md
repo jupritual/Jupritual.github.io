@@ -217,6 +217,25 @@ Starts a vote to lift an existing ban. Same flow — mods vote, majority wins.
 **Step 2 — Unban executed by community vote**<br/>
 <img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/voteunban-success.jpeg" width="350"/>
 
+---
+
+### Timeout List — `j.timeoutlist`
+
+View all currently timed out members in the server with time remaining — select any member from the dropdown to see full details and manage their timeout.
+
+<div align="center">
+
+**Step 1 — Overview of timed out members**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/timeoutlist-overview.png" width="350"/><br/><br/>
+
+**Step 2 — Dropdown showing members with time remaining**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/timeoutlist-dropdown.png" width="350"/><br/><br/>
+
+**Step 3 — Detailed timeout info with untimeout & back actions**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/timeoutlist-details.jpeg" width="350"/>
+
+</div>
+
 </div>
 
 ---
