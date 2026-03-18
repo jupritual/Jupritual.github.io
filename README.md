@@ -394,6 +394,83 @@ Remove a specific number of infraction points from a member. Automatically adjus
 
 </div>
 
+---
+
+## 🎉 Welcome System — `j.welcomesystem`
+
+> Fully configurable join/leave messages and welcome DMs — with embed designer, dynamic placeholders, auto-reactions, interactive buttons, and live preview.
+
+---
+
+**Dashboard — overview of all configured embeds**<br/>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/welcome-dashboard.png" width="350"/>
+
+</div>
+
+---
+
+### Setting Up a Join Embed — Step by Step
+
+<div align="center">
+
+**Step 1 — Select channels to send join messages**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/welcome-step1-channel.png" width="350"/><br/><br/>
+
+**Step 2 — Embed designer with dynamic placeholders**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/welcome-step2-designer.jpeg" width="350"/><br/><br/>
+
+**Step 3 — Auto-reactions on welcome messages**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/welcome-step3-reactions.jpeg" width="350"/><br/><br/>
+
+**Step 4 — Add interactive buttons and dropdowns**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/welcome-step4-buttons.jpeg" width="350"/><br/><br/>
+
+**Step 4 — Components overview with live preview**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/welcome-step4-components.jpeg" width="350"/><br/><br/>
+
+**Step 5 — Final review before saving + full live preview**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/welcome-step5-review.jpeg" width="350"/>
+
+</div>
+
+---
+
+### Manage Embeds
+
+<div align="center">
+
+**Edit, toggle, enable/disable all embeds from one panel**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/welcome-manage-embeds.png" width="350"/>
+
+</div>
+
+---
+
+### Dynamic Placeholders Guide
+
+<div align="center">
+
+**30+ placeholders for user, server, inviter, role, and more**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/welcome-placeholders.jpeg" width="350"/>
+
+</div>
+
+---
+
+### Greet System Statistics
+
+<div align="center">
+
+**Full analytics — active embeds, triggers, components, recent activity**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/welcome-stats.jpeg" width="350"/>
+
+</div>
+
+> Leave embed and Welcome DM setup follow the same step-by-step flow.
+
 </details>
 
 ---
