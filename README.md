@@ -180,7 +180,6 @@ jupritual/
 
 ## ✦ Screenshots
 
-<details>
 <summary><b>📸 Click to expand screenshots</b></summary>
 
 <details>
@@ -716,7 +715,6 @@ Assign or remove any configured role trigger for a member — no need to know th
 
 </details>
 
-</details>
 
 ---
 
