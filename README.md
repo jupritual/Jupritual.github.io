@@ -504,13 +504,13 @@ View complete moderation history for any moderator — broken down by action typ
 <div align="center">
 
 **Step 1 — Activity summary with action counts per type**<br/>
-<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/modlogs-overview.png" width="350"/><br/><br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/modlogs-overview.jpeg" width="350"/><br/><br/>
 
 **Step 2 — Dropdown to select action type**<br/>
 <img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/modlogs-dropdown.png" width="350"/><br/><br/>
 
 **Step 3 — Detailed log entries with target, action, and timestamp**<br/>
-<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/modlogs-detail.png" width="350"/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/modlogs-detail.jpeg" width="350"/>
 
 </div>
 
@@ -560,6 +560,156 @@ View detailed AFK statistics — server AFK time, weekly AFK time, global AFK ti
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/afk-stats.png" width="350"/>
+
+</div>
+
+---
+
+## 🤖 Auto-Reaction System — `j.autoreaction`
+
+> Rule-based automatic emoji reactions — trigger on any text, match type, channel, user, or role. Up to 20 active rules per server.
+
+---
+
+**Dashboard — server status and quick actions**<br/>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/autoreaction-dashboard.png" width="350"/>
+
+</div>
+
+---
+
+### Creating a Rule — Step by Step
+
+<div align="center">
+
+**Step 1 — Set the trigger text**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/autoreaction-step1-trigger.png" width="350"/><br/><br/>
+
+**Step 2 — Choose match type**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/autoreaction-step2-matchtype.png" width="350"/><br/><br/>
+
+**Step 2 — Match type options: contains, starts with, ends with, exact**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/autoreaction-step2-dropdown.png" width="350"/><br/><br/>
+
+**Step 3 — Add reactions (standard, static, animated)**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/autoreaction-step3-reactions.jpeg" width="350"/><br/><br/>
+
+**Step 4 — Channel restrictions (specific or all)**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/autoreaction-step4-channels.png" width="350"/><br/><br/>
+
+**Step 5 — User & role restrictions**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/autoreaction-step5-users.png" width="350"/><br/><br/>
+
+**Step 6 — Advanced settings modal (cooldowns, auto-remove)**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/autoreaction-step6-modal.png" width="350"/><br/><br/>
+
+**Step 6 — Advanced settings overview**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/autoreaction-step6-advanced.png" width="350"/><br/><br/>
+
+**Step 7 — Final review before creating**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/autoreaction-step7-review.png" width="350"/>
+
+</div>
+
+---
+
+### List Rules
+
+<div align="center">
+
+**All active rules with trigger, emojis, channels, and cooldown**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/autoreaction-listrules.png" width="350"/>
+
+</div>
+
+---
+
+### Rule Statistics
+
+<div align="center">
+
+**Full stats — uses, top performing rules, emoji usage, restrictions breakdown**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/autoreaction-stats.jpeg" width="350"/>
+
+</div>
+
+---
+
+### Rule Management — Toggle, Edit, Delete, Test
+
+<div align="center">
+
+**Select any rule to toggle, edit, delete, view stats, or live test it**<br/>
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/autoreaction-manage.jpeg" width="350"/>
+
+</div>
+
+---
+
+## ⚙️ Toggles & Restrictions
+
+> Full control over which commands run where — disable any command server-wide or restrict it to specific channels.
+
+---
+
+### DM Toggle — `j.dmtoggle`
+
+Admins can toggle whether the bot sends DMs to members for moderation actions like bans, kicks, timeouts, and warns.
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/dmtoggle.png" width="350"/>
+
+</div>
+
+---
+
+### Server-Wide Disable — `j.svdisable[command]`
+
+Disable any command completely across the entire server.
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/svdisable.png" width="350"/>
+
+</div>
+
+---
+
+### Server-Wide Enable — `j.svenable[command]`
+
+Re-enable a previously disabled command server-wide.
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/svenable.png" width="350"/>
+
+</div>
+
+---
+
+### Channel Disable — `j.disable[command]`
+
+Disable a command in the current channel only — still works in other channels.
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/disable.png" width="350"/>
+
+</div>
+
+---
+
+### Channel Enable — `j.enable[command]`
+
+Re-enable a command in the current channel.
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/jupritual/Jupritual-Bot/main/assets/enable.png" width="350"/>
 
 </div>
 
