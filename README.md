@@ -724,9 +724,9 @@ Assign or remove any configured role trigger for a member — no need to know th
 
 <div align="center">
 
-[![Invite Jupritual](https://img.shields.io/badge/%F0%9F%AA%90%20Invite%20Jupritual%20to%20your%20server-5865F2?style=for-the-badge)](https://discord.com/oauth2/authorize?client_id=1245248139699556394)
-
-[![Top.gg Page](https://img.shields.io/badge/View%20on%20Top.gg-ff3366?style=for-the-badge&logo=discord&logoColor=white)](https://top.gg/bot/1245248139699556394?s=071b865a14137)
+[![Invite Jupritual](https://img.shields.io/badge/%F0%9F%AA%90%20Invite%20Jupritual-5865F2?style=for-the-badge)](https://discord.com/oauth2/authorize?client_id=1245248139699556394)
+[![Top.gg](https://img.shields.io/badge/View%20on%20Top.gg-ff3366?style=for-the-badge&logo=discord&logoColor=white)](https://top.gg/bot/1245248139699556394?s=071b865a14137)
+[![Support Server](https://img.shields.io/badge/Support%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/fB42jHFHKB)
 
 </div>
 
@@ -743,5 +743,5 @@ This bot is not a fork. Not a tutorial project. Every system was designed, built
 ---
 
 <div align="center">
-<sub>Built with Python · discord.py · MongoDB Atlas · Oracle Cloud</sub>
+<sub>Built with Python · discord.py · MongoDB Atlas · Oracle Cloud · <a href="https://discord.gg/fB42jHFHKB">Support Server</a></sub>
 </div>
