@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Privacy Policy — Jupritual</title>
+<meta property="og:title" content="Privacy Policy — Jupritual"/>
+<meta property="og:description" content="Privacy Policy for Jupritual Discord Bot."/>
+<meta property="og:url" content="https://jupritual.github.io/privacy"/>
+<meta property="og:type" content="website"/>
+<meta name="theme-color" content="#E0218A"/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --pink: #E0218A;
+    --pink-dim: rgba(224,33,138,0.15);
+    --pink-glow: rgba(224,33,138,0.35);
+    --glass: rgba(255,255,255,0.04);
+    --glass-border: rgba(255,255,255,0.08);
+    --bg: #060608;
+    --text: #e8e8f0;
+    --muted: #7a7a9a;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Syne', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  .bg-layer {
+    position: fixed; inset: 0; z-index: 0; pointer-events: none;
+    background:
+      radial-gradient(ellipse 80% 60% at 10% 10%, rgba(224,33,138,0.06) 0%, transparent 60%),
+      radial-gradient(ellipse 60% 50% at 90% 80%, rgba(88,101,242,0.05) 0%, transparent 55%);
+  }
+
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 16px 40px;
+    background: rgba(6,6,8,0.7);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  .nav-logo {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 18px; font-weight: 700; letter-spacing: -0.5px;
+    text-decoration: none; color: var(--text);
+  }
+
+  .nav-logo img { width: 32px; height: 32px; border-radius: 50%; }
+
+  .nav-links { display: flex; gap: 8px; }
+
+  .nav-links a {
+    font-size: 13px; font-weight: 500; color: var(--muted);
+    text-decoration: none; padding: 6px 14px; border-radius: 8px;
+    transition: all 0.2s;
+  }
+  .nav-links a:hover { color: var(--text); background: var(--glass); }
+
+  .nav-cta {
+    background: var(--pink) !important;
+    color: white !important;
+    font-weight: 600 !important;
+  }
+
+  .container {
+    position: relative; z-index: 1;
+    max-width: 780px; margin: 0 auto;
+    padding: 120px 24px 80px;
+  }
+
+  .page-badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px; font-weight: 500;
+    color: var(--pink);
+    background: var(--pink-dim);
+    border: 1px solid rgba(224,33,138,0.25);
+    padding: 5px 14px; border-radius: 99px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: clamp(36px, 6vw, 56px);
+    font-weight: 800;
+    letter-spacing: -2px;
+    margin-bottom: 12px;
+    line-height: 1;
+  }
+
+  .last-updated {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 48px;
+  }
+
+  .intro {
+    font-size: 15px;
+    color: var(--muted);
+    line-height: 1.75;
+    margin-bottom: 48px;
+    padding: 20px 24px;
+    background: var(--glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    border-left: 3px solid var(--pink);
+  }
+
+  .section {
+    margin-bottom: 44px;
+  }
+
+  .section-num {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--pink);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .section h2 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 14px;
+  }
+
+  .section p {
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.8;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+
+  .section ul {
+    list-style: none;
+    margin: 10px 0;
+  }
+
+  .section ul li {
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.8;
+    padding: 4px 0 4px 16px;
+    position: relative;
+    font-weight: 400;
+  }
+
+  .section ul li::before {
+    content: '—';
+    position: absolute; left: 0;
+    color: var(--pink);
+    font-size: 12px;
+  }
+
+  .data-table {
+    width: 100%;
+    border: 1px solid var(--glass-border);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 16px 0;
+  }
+
+  .data-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  .data-row:last-child { border-bottom: none; }
+
+  .data-row.header {
+    background: var(--glass);
+  }
+
+  .data-cell {
+    padding: 12px 16px;
+    font-size: 12px;
+    color: var(--muted);
+    border-right: 1px solid var(--glass-border);
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  .data-cell:last-child { border-right: none; }
+
+  .data-row.header .data-cell {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--pink);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .divider {
+    height: 1px;
+    background: var(--glass-border);
+    margin: 44px 0;
+  }
+
+  .contact-box {
+    background: var(--glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 24px;
+    text-align: center;
+    margin-top: 48px;
+  }
+
+  .contact-box p {
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.7;
+    font-weight: 400;
+  }
+
+  .contact-box a {
+    color: var(--pink);
+    text-decoration: none;
+  }
+
+  .contact-box a:hover { text-decoration: underline; }
+
+  footer {
+    position: relative; z-index: 1;
+    text-align: center; padding: 24px;
+    border-top: 1px solid var(--glass-border);
+    font-size: 12px; color: var(--muted);
+    font-family: 'DM Mono', monospace;
+  }
+
+  footer a { color: var(--muted); text-decoration: none; }
+  footer a:hover { color: var(--text); }
+
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: rgba(224,33,138,0.3); border-radius: 3px; }
+
+  @media (max-width: 640px) {
+    nav { padding: 14px 20px; }
+    .nav-links { display: none; }
+    .container { padding: 100px 20px 60px; }
+    .data-row { grid-template-columns: 1fr; }
+    .data-cell { border-right: none; border-bottom: 1px solid var(--glass-border); }
+  }
+</style>
+</head>
+<body>
+
+<div class="bg-layer"></div>
+
+<nav>
+  <a href="/" class="nav-logo">
+    <img src="assets/avatar.png" alt="Jupritual"/>
+    Jupritual
+  </a>
+  <div class="nav-links">
+    <a href="/">Home</a>
+    <a href="/tos">Terms of Service</a>
+    <a href="https://discord.com/oauth2/authorize?client_id=1245248139699556394" class="nav-cta">Invite Bot</a>
+  </div>
+</nav>
+
+<div class="container">
+
+  <div class="page-badge">✦ Legal</div>
+  <h1>Privacy Policy</h1>
+  <p class="last-updated">Last updated: March 2026</p>
+
+  <div class="intro">
+    We built Jupritual to be useful, not intrusive. This policy explains exactly what data we collect, why we collect it, and how it's used. We don't sell your data. We don't share it. We store only what's needed to make the bot work.
+  </div>
+
+  <div class="section">
+    <div class="section-num">01</div>
+    <h2>What Data We Collect</h2>
+    <p>Jupritual collects and stores the following types of data to power its features:</p>
+
+    <div class="data-table">
+      <div class="data-row header">
+        <div class="data-cell">Data</div>
+        <div class="data-cell">Why</div>
+        <div class="data-cell">Stored Until</div>
+      </div>
+      <div class="data-row">
+        <div class="data-cell">Server ID & configuration</div>
+        <div class="data-cell">Prefix, logging channels, toggles</div>
+        <div class="data-cell">Until bot is removed</div>
+      </div>
+      <div class="data-row">
+        <div class="data-cell">User ID (warnings, infractions)</div>
+        <div class="data-cell">Warning system & mod records</div>
+        <div class="data-cell">Until manually cleared</div>
+      </div>
+      <div class="data-row">
+        <div class="data-cell">AFK status & session data</div>
+        <div class="data-cell">AFK system functionality</div>
+        <div class="data-cell">Cleared when AFK ends</div>
+      </div>
+      <div class="data-row">
+        <div class="data-cell">Custom role triggers</div>
+        <div class="data-cell">Role assignment commands</div>
+        <div class="data-cell">Until deleted by admin</div>
+      </div>
+      <div class="data-row">
+        <div class="data-cell">Welcome system config</div>
+        <div class="data-cell">Join/leave messages</div>
+        <div class="data-cell">Until deleted by admin</div>
+      </div>
+      <div class="data-row">
+        <div class="data-cell">Auto-reaction rules</div>
+        <div class="data-cell">Auto-reaction feature</div>
+        <div class="data-cell">Until deleted by admin</div>
+      </div>
+      <div class="data-row">
+        <div class="data-cell">Embed builder components</div>
+        <div class="data-cell">Persistent button/dropdown roles</div>
+        <div class="data-cell">Auto-deleted after 1 year</div>
+      </div>
+      <div class="data-row">
+        <div class="data-cell">Moderation log references</div>
+        <div class="data-cell">Audit trail for mod actions</div>
+        <div class="data-cell">Auto-deleted after 90 days</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="section">
+    <div class="section-num">02</div>
+    <h2>What We Don't Collect</h2>
+    <p>We want to be clear about what Jupritual does not store:</p>
+    <ul>
+      <li>Message content — we do not read or store the content of messages (except for the snipe command, which temporarily caches deleted messages in memory only, never in the database).</li>
+      <li>Passwords, tokens, or any authentication credentials.</li>
+      <li>Personal information like email addresses, real names, or payment details.</li>
+      <li>Voice channel activity or audio.</li>
+      <li>Data from servers the bot is not added to.</li>
+    </ul>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="section">
+    <div class="section-num">03</div>
+    <h2>How Data Is Stored</h2>
+    <p>All data is stored in MongoDB Atlas, a cloud database hosted on secure infrastructure. Data is stored per-server — meaning one server's data is completely separate from another's.</p>
+    <p>The bot is hosted on Oracle Cloud Always Free infrastructure running in a secure Ubuntu environment. No data is shared between servers, and no data is shared with third parties.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="section">
+    <div class="section-num">04</div>
+    <h2>Data Retention & Deletion</h2>
+    <p>Different types of data are kept for different lengths of time:</p>
+    <ul>
+      <li>Moderation logs are automatically deleted after 90 days.</li>
+      <li>Embed builder persistent button data is automatically deleted after 1 year.</li>
+      <li>AFK session data is cleared as soon as a user returns from AFK.</li>
+      <li>Server configuration is retained until the bot is removed from the server.</li>
+    </ul>
+    <p>If you want your server's data deleted manually, you can request it by joining our support server. We'll process it as soon as possible.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="section">
+    <div class="section-num">05</div>
+    <h2>Third-Party Services</h2>
+    <p>Jupritual is listed on <a href="https://top.gg/bot/1245248139699556394" style="color:var(--pink);">Top.gg</a>. When users vote for the bot on Top.gg, Top.gg may collect data as per their own privacy policy. We do not control or have access to data collected by Top.gg.</p>
+    <p>We do not use any advertising services, analytics platforms, or data brokers.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="section">
+    <div class="section-num">06</div>
+    <h2>Your Rights</h2>
+    <p>You have the right to:</p>
+    <ul>
+      <li>Request what data we hold related to your server or user ID.</li>
+      <li>Request deletion of your data at any time.</li>
+      <li>Remove the bot from your server at any time, which stops all future data collection.</li>
+    </ul>
+    <p>To exercise any of these rights, join our <a href="https://discord.gg/fB42jHFHKB" style="color:var(--pink);">support server</a> and open a request.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="section">
+    <div class="section-num">07</div>
+    <h2>Children's Privacy</h2>
+    <p>Jupritual does not knowingly collect data from users under the age of 13. Discord itself requires users to be at least 13 years old. If you believe a user under 13 has interacted with the bot, please contact us and we will take appropriate action.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="section">
+    <div class="section-num">08</div>
+    <h2>Changes to This Policy</h2>
+    <p>We may update this policy as features are added or requirements change. The "Last updated" date at the top reflects the most recent revision. Significant changes will be communicated through our support server.</p>
+    <p>Continued use of Jupritual after changes are posted means you accept the updated policy.</p>
+  </div>
+
+  <div class="contact-box">
+    <p>Questions about your data or this policy? Join our <a href="https://discord.gg/fB42jHFHKB">support server</a> and we'll get back to you. We take privacy seriously and will always respond.</p>
+  </div>
+
+</div>
+
+<footer>
+  <a href="/">jupritual.github.io</a> · <a href="/tos">Terms of Service</a> · <a href="/privacy">Privacy Policy</a>
+</footer>
+
+</body>
+</html>
