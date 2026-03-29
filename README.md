@@ -743,5 +743,10 @@ This bot is not a fork. Not a tutorial project. Every system was designed, built
 ---
 
 <div align="center">
-<sub>Built with Python · discord.py · MongoDB Atlas · Oracle Cloud · <a href="https://discord.gg/fB42jHFHKB">Support Server</a></sub>
+<sub>
+Built with Python · discord.py · MongoDB Atlas · Oracle Cloud · 
+<a href="https://discord.gg/fB42jHFHKB">Support Server</a> · 
+<a href="https://jupritual.github.io/tos">Terms of Service</a> · 
+<a href="https://jupritual.github.io/privacy">Privacy Policy</a>
+</sub>
 </div>
